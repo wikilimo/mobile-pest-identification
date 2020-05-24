@@ -461,7 +461,7 @@ class PestDetector(Detector):
                     path=self.root, folder="images", csv_name="list.txt", delimiter=" "
                 )
             )
-            .split_by_idx(list(range(2)))
+            .split_by_idx(list(range(22169)))
             .label_from_df()
             .transform(self.transforms(noise, blur, basic), size=224)
             .databunch(bs=bs, num_workers=num_workers)
