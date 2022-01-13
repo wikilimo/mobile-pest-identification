@@ -1,5 +1,5 @@
 torchvision==0.5.0
 torch==1.4.0
 git+https://github.com/fastai/fastai.git@735e9eef3a2fc03e70a5b302042566843a25e0b1
-Pillow==7.1.2
+Pillow==9.0.0
 PyYAML==5.4
